@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WorkflowEviajesActivity!</string>
+    <string name="app_name">WorkflowEviajes</string>
+    <string name="descripcionAplicacion">Aplicación para aprobación o rechazo de solicitudes</string>
+    
+    <string name="UsuarioLogin">Usuario:</string>
+    <string name="PassLogin">Contraseña:</string>
+    <string name="botonLogin">Ingresar</string>
+    
+    <string name="tituloMenuPrincipal">Menu Principal</string>
+    <string name="tituloActualizaDatos">Actualización de Datos</string>
+    <string name="tituloListaSolicitudes">Solicitudes</string>
+    <string name="tituloDetalleSolicitud">Detalle Solicitud</string>
+    <string name="tituloFormSolicitud">Formulario Solicitud</string>
+    
+    <string name="descripcionEncabezado">Aplicación de viajes</string>
+    <string name="descripcionActualizaDatos">Actualizar datos personales</string>
+    <string name="descripcionListaSolicitudes">Listado de solicitudes</string>
+    <string name="descripcionCambioPass">Cambiar Contraseña de usuario</string>
+    <string name="descripcionSalida">Salir de la Aplicación</string>
+    <string name="descripcionSeparador">Separador de imagenes</string>
+    
+    <string name="adEtiquetaNombres">Nombres:</string>
+    <string name="adEtiquetaApellidos">Apellidos:</string>
+    <string name="adEtiquetaEmail">Correo Electrónico:</string>
+    <string name="adEtiquetaEmailSecundario">Correo Electrónico Secundario:</string>
+    <string name="adEtiquetaTelefonoFijo">Teléfono Fijo:</string>
+    <string name="adEtiquetaTelefonoMovil">Teléfono Móvil:</string>
+    <string name="adBotonActualiza">Actualizar Datos</string>
+    
+    <string name="dsFlujo">Nombre Flujo:</string>
+    <string name="dsEstado">Estado:</string>
+    <string name="dsCreador">Usuario Creador:</string>
+    <string name="dsFecha">Fecha Solicitud:</string>
+    <string name="dsCiudad">Ciudad:</string>
+    
+    <string name="btAprobar">Aprobar</string>
+    <string name="btRechazar">Rechazar</string>
+    
+    <string name="acClaveActual">Contraseña Actual:</string>
+    <string name="acClaveNueva1">Contraseña Nueva:</string>
+    <string name="acClaveNueva2">Confirme contraseña Nueva:</string>
+    <string name="acTituloBoton">Actualizar</string>
+</resources>

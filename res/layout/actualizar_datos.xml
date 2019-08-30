@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dip" >
+    
+	    <ImageView
+	        android:id="@+id/imgEncabezado"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dip"
+	        android:src="@drawable/cabe"
+	        android:contentDescription="@string/descripcionEncabezado" />
+	    
+	    <LinearLayout android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:padding="10dip" >
+	        
+	        <TextView android:id="@+id/tituloActualizaDatos"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tituloActualizaDatos"
+	        android:textStyle="bold"
+	        android:textSize="20dip" />
+	        
+	    </LinearLayout>
+	    
+	<ScrollView android:id="@+id/scrollDatos"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+	    
+	    <LinearLayout android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dip" >
+	        
+		    <TextView android:id="@+id/adNombres"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/adEtiquetaNombres"
+		        android:textStyle="bold" />
+		    
+		    <EditText android:id="@+id/adCampoNombres"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="text" />
+		    
+		    <TextView android:id="@+id/adApellidos"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/adEtiquetaApellidos"
+		        android:textStyle="bold" />
+		    
+		    <EditText android:id="@+id/adCampoApellidos"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="text" />
+		    
+		    <TextView android:id="@+id/adEmail"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/adEtiquetaEmail"
+		        android:textStyle="bold" />
+		    
+		    <EditText android:id="@+id/adCampoEmail"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textEmailAddress" />
+		    
+		    <TextView android:id="@+id/adEmailSecundario"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/adEtiquetaEmailSecundario"
+		        android:textStyle="bold" />
+		    
+		    <EditText android:id="@+id/adCampoEmailSecundario"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="textEmailAddress" />
+		    
+		    <TextView android:id="@+id/adTelefonoFijo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/adEtiquetaTelefonoFijo"
+		        android:textStyle="bold" />
+		    
+		    <EditText android:id="@+id/adCampoTelefonoFijo"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="phone" />
+		    
+		    <TextView android:id="@+id/adTelefonoMovil"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/adEtiquetaTelefonoMovil"
+		        android:textStyle="bold" />
+		    
+		    <EditText android:id="@+id/adCampoTelefonoMovil"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:inputType="phone" />
+		    
+		    <Button android:id="@+id/btActualizaDatos"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/adBotonActualiza"
+		        android:paddingTop="10dip" />
+	    
+	    </LinearLayout>
+    
+	</ScrollView>
+</LinearLayout>
